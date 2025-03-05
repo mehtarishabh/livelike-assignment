@@ -1,0 +1,31 @@
+.ProductCategory {
+    background-color: rgb(196, 193, 193);
+    padding: 10px 10px 10px 20px;
+    height: 100%;
+    width: 100%;
+
+    &-title {
+        margin: 25px 0;
+        width: fit-content;
+
+        &:hover {
+            color: rgb(205, 37, 93);
+            cursor: pointer;
+        }
+    }
+
+    &-item {
+        padding-left: 25px;
+        margin: 25px 0;
+        width: fit-content;
+
+        &:hover {
+            color: rgb(205, 37, 93);
+            cursor: pointer;
+        }
+    }
+
+    &-selected {
+        color: rgb(215, 83, 127);
+    }
+}
